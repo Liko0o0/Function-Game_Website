@@ -1,12 +1,21 @@
-// Adjust width and height
-const canvas = document.getElementById('functionCanvas');
-const context = canvas.getContext('2d');
 
-function resizeCanvas() {
-    canvas.width = window.innerWidth * 0.8; 
-    canvas.height = window.innerHeight * 0.6; 
-
-}
-
-window.addEventListener('resize', resizeCanvas);
-resizeCanvas();
+//https://mauriciopoppe.github.io/function-plot/ pour les infos sur le module
+functionPlot({
+    title: 'Trouve la fonction !',
+    target: '#root',
+    width: 1600,
+    height: 800,
+    xAxis: {
+      label: 'x',
+      domain: [-100, 100]
+    },
+    yAxis: {
+      label: 'y'
+      [-50, 50]
+    },
+    data: [
+      {
+        fn: 'cos(x) * x'
+      }
+    ]
+  })

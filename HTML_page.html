@@ -1,47 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-        <meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-    	<link rel="stylesheet" type="text/css" href="CSS_page.css" /> 
-		<title>Trouve la fonction !</title>
-	</head>
-	<body>
-		<header>
-			<h1>Le Jeu Des Fonctions</h1>
-		</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="CSS_page.css" />
+    <title>Trouve la fonction !</title>
+  </head>
 
-		<nav>
-			<ul>
-				<li class="deroulant"><a href="#">Cours Complets &ensp;</a> 
-					<ul class="sous">
-						<li><a href="#">Cours HTML et CSS</a></li>
-						<li><a href="#">Cours JavaScript</a></li>
-						<li><a href="#">Cours PHP et MySQL</a></li>
-					</ul>
-				</li>
-				<li class="deroulant"><a href="#">Articles &ensp;</a> 
-					<ul class="sous">
-						<li><a href="#">CSS display</a></li>
-						<li><a href="#">CSS position</a></li>
-						<li><a href="#">CSS float</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">A propos</a></li>
-			</ul>
-		</nav>
-		
-		<br><br><br>
-		<!--Canva-->
-		<canvas id="functionCanvas" width="800" height="600"></canvas>
+  <body>
+    <header>
+      <h1>Le Jeu Des Fonctions</h1>
+    </header>
 
+    <nav>
+      <ul>
+        <li class="deroulant">
+          <a href="#">Cours Complets &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">Cours HTML et CSS</a></li>
+            <li><a href="#">Cours JavaScript</a></li>
+            <li><a href="#">Cours PHP et MySQL</a></li>
+          </ul>
+        </li>
+        <li class="deroulant">
+          <a href="#">Articles &ensp;</a>
+          <ul class="sous">
+            <li><a href="#">CSS display</a></li>
+            <li><a href="#">CSS position</a></li>
+            <li><a href="#">CSS float</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">A propos</a></li>
+      </ul>
+    </nav>
 
-
-		<footer>
-
-		</footer>
-
-		<script src="App.js"></script>
-	</body>
+    <div id="root"></div>
+    <script type="module" src="App.js"></script>
+	<!-- importe le module du graphe directement par internet -->
+    <script src="https://cdn.jsdelivr.net/npm/function-plot/dist/function-plot.min.js"></script>
+  
+</body>
 </html>
