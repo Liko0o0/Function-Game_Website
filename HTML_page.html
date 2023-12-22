@@ -1,3 +1,5 @@
+<!-- creer les differentes pages -->
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,39 +8,24 @@
     <link rel="stylesheet" type="text/css" href="CSS_page.css" />
     <title>Trouve la fonction !</title>
   </head>
-
+  
   <body>
     <header>
       <h1>Le Jeu Des Fonctions</h1>
     </header>
 
-    <nav>
-      <ul>
-        <li class="deroulant">
-          <a href="#">Cours Complets &ensp;</a>
-          <ul class="sous">
-            <li><a href="#">Cours HTML et CSS</a></li>
-            <li><a href="#">Cours JavaScript</a></li>
-            <li><a href="#">Cours PHP et MySQL</a></li>
-          </ul>
-        </li>
-        <li class="deroulant">
-          <a href="#">Articles &ensp;</a>
-          <ul class="sous">
-            <li><a href="#">CSS display</a></li>
-            <li><a href="#">CSS position</a></li>
-            <li><a href="#">CSS float</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">A propos</a></li>
-      </ul>
-    </nav>
-
-    <div id="root"></div>
     <script type="module" src="App.js"></script>
+
+    <div id="function"></div>
+
+    <div id="answer">
+      <label for="answerInput"></label>
+      <input type="text" id="answerInput" minlength="1" maxlength="20" placeholder="Entrez votre réponse"/>
+      <button id="saveButton">VALIDER</button>
+    </div>
+
 	<!-- importe le module du graphe directement par internet -->
     <script src="https://cdn.jsdelivr.net/npm/function-plot/dist/function-plot.min.js"></script>
-  
+
 </body>
 </html>
