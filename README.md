@@ -7,7 +7,7 @@
 - [Rules](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-rules)
 - [Screens](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-screens)
 - [Documentation Links](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-documentation-links)
-- [Acknowledgments](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-about-the-project)
+- [Acknowledgments](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-acknowledgments)
   
 ## 📖 About the Project
 
