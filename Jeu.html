@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="CSS.css" />
+    <link rel="icon" type="image/vnd.icon" href="icon.ico">
+    <title> Jeu des fonctions</title>
+  </head>
+  
+  <body>
+
+    <header>
+      <h1>Le Jeu Des Fonctions</h1>
+    </header>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li class="center"><a href="Jeu.html" class="current-page">Jeu</a></li>
+        <li class="upward"><a href="Regle.html">Règles</a></li>
+        <li class="forward"><a href="APropos.html">À Propos</a></li>
+      </ul>
+
+    <div id="level-menu"></div>
+
+    <div id="function"></div>
+
+    <div id="answer">
+      <label id="answerInputLabel" for="answerInput"></label>
+      <input type="text" id="answerInput" minlength="1" maxlength="20" placeholder="Entrez votre réponse" autocomplete="off"/>
+      <button id="saveButton">VALIDER</button>
+    </div>
+
+    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+    <script type="text/javascript" src="JavaScriptt.js?version=2.9"></script>
+
+  </body>
+</html>

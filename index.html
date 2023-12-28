@@ -5,25 +5,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="CSS.css" />
-    <title>Trouve la fonction !</title>
+    <link rel="icon" type="image/vnd.icon" href="icon.ico">
+    <title> Accueil - Jeu des fonctions</title>
   </head>
-  
+
+  <header>
+    <h1>Le Jeu Des Fonctions</h1>
+    <h2>Accueil</h2>
+  </header>
+
   <body>
+      <ul class="nav-links">
+        <li><a href="index.html" class="current-page">Accueil</a></li>
+        <li class="center"><a href="Jeu.html">Jeu</a></li>
+        <li class="upward"><a href="Regle.html">Règles</a></li>
+        <li class="forward"><a href="APropos.html">À Propos</a></li>
+      </ul>
 
-    <header>
-      <h1>Le Jeu Des Fonctions</h1>
-    </header>
+      <div id="intro">
+        <h3>Bienvenue sur le site du <br> Jeu des Fonctions !</h3><br>
+        <p>Découvrez un défi captivant où vous devez retrouver les fonctions mathématiques uniquement en les observants graphiquement.<br><br>
+           Plongez dans une expérience ludique qui mettra à l'épreuve vos compétences en mathématiques de manière divertissante.</p>
+        <p>Que vous soyez un amateur de mathématiques ou simplement <br>
+           à la recherche d'un défi amusant, ce jeu offre une expérience <br>
+           enrichissante pour tous les niveaux.<br><br>
+           Commencez dès maintenant et mettez-vous au défi <br>
+           de trouver la fonction !</p>
+      </div>
+      
+      <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
 
-    <div id="function"></div>
+  </body>
 
-    <div id="answer">
-      <label id="answerInputLabel" for="answerInput"></label>
-      <input type="text" id="answerInput" minlength="1" maxlength="20" placeholder="Entrez votre réponse" autocomplete="off"/>
-      <button id="saveButton">VALIDER</button>
-    </div>
-
-    <script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
-    <script type="text/javascript" src="jScript.js?version=2.4"></script>
-
-</body>
 </html>
