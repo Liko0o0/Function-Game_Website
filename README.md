@@ -3,10 +3,11 @@
 
 # 📜 Table of Contents
 
-- [About the Project](https://github.com/Liko0o0/Minesweeper---Python-Tkinter#-about-the-project)
-- [Rules](https://github.com/Liko0o0/Minesweeper---Python-Tkinter#-how-to-run-the-game)
-- [Screens](https://github.com/Liko0o0/Minesweeper---Python-Tkinter#-screens-of-the-game)
-- [Documentation Links](https://github.com/Liko0o0/Minesweeper---Python-Tkinter#-documentation-links)
+- [About the Project](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-about-the-project)
+- [Rules](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-rules)
+- [Screens](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-screens)
+- [Documentation Links](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-documentation-links)
+- [Acknowledgments](https://github.com/Liko0o0/Function-Game_Website?tab=readme-ov-file#-about-the-project)
   
 ## 📖 About the Project
 
@@ -45,3 +46,6 @@ basic mathematical rules, so : x * 5 = 5 * x  but: 1/x ≠ x/1.**
 
  - [Function-plot](https://mauriciopoppe.github.io/function-plot/)
 
+## 💎 Acknowledgments
+
+Thanks to [T-Spamer](https://github.com/T-Spamer) for the project idea
