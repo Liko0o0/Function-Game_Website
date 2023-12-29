@@ -23,8 +23,7 @@
 For example, sin(x) is equivalent to SIN (X ).**
 
 **Use the computer syntax for functions. Here are some examples :**
-
-_( x*2 for multiplication.<br>
+> x*2 for multiplication.<br>
 x/2 for division.<br>
 x^y for x to the power of y.<br>
 sqrt(x) for the square root.<br>
