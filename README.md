@@ -19,10 +19,10 @@
 ## 📝 Rules
 ### To play the Functions Game, here are some important rules:
 
-**Spaces and capital letters are not taken into account in the response.<br>
+- **Spaces and capital letters are not taken into account in the response.<br>
 For example, sin(x) is equivalent to SIN (X ).**
 
-**Use the computer syntax for functions. Here are some examples :**
+- **Use the computer syntax for functions. Here are some examples :**
 > x*2 for multiplication.<br>
 x/2 for division.<br>
 x^y for x to the power of y.<br>
