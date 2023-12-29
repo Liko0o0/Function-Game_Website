@@ -24,7 +24,7 @@ For example, sin(x) is equivalent to SIN (X ).**
 
 **Use the computer syntax for functions. Here are some examples :**
 
-> _( x*2 for multiplication.<br>
+_( x*2 for multiplication.<br>
 x/2 for division.<br>
 x^y for x to the power of y.<br>
 sqrt(x) for the square root.<br>
@@ -33,7 +33,7 @@ cos(x) for the cosine.<br>
 tan(x) for the tangent.<br>
 exp(x) for the exponential.<br>
 ln(x) for the logarithm.<br>
-abs(x) for the absolute value.<br> )_ <
+abs(x) for the absolute value.<br> )_
 
 **Answers can be given in any order respecting the
 basic mathematical rules, so : x * 5 = 5 * x  but: 1/x ≠ x/1.**
