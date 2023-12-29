@@ -32,7 +32,7 @@ cos(x) for the cosine.<br>
 tan(x) for the tangent.<br>
 exp(x) for the exponential.<br>
 ln(x) for the logarithm.<br>
-abs(x) for the absolute value.<br> )_
+abs(x) for the absolute value.<br>
 
 **Answers can be given in any order respecting the
 basic mathematical rules, so : x * 5 = 5 * x  but: 1/x ≠ x/1.**
