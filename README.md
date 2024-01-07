@@ -37,7 +37,8 @@
 
 - **Answers can be given in any order respecting the
 basic mathematical rules.**
-    - **So :** 5 * x = x * 5 <br> **But :** 1/x ≠ x/1.
+    - **So :** 5 * x = x * 5
+    - **But :** 1/x ≠ x/1.
 
 ## 📸 Screens
 
